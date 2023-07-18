@@ -136,6 +136,18 @@ html {
 }
 
 
+.brands-container{
+    min-height: 50px;
+    max-width: 1440px;
+    margin: 25px auto 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+
 /* responsive designing */
 
 @media screen and (max-width: 768px) {
@@ -196,6 +208,11 @@ html {
     .btn-primary {
         display: block;
         text-align: center;
+    }
+    .brands-container{
+        flex-wrap: wrap;
+        min-height: 20px;
+        gap: 20px;
     }
 
 }
