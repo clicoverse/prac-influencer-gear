@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fontawesome icon added -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- stylesheet added -->
     <link rel="stylesheet" href="assets/style/style.css" class="css">
     <title>Influencer Gear</title>
 </head>
 <body>
-    <nav class="navbar">
-        <div class="logo">
-            <h3 class="logo">Influencer products</h3>
-        </div>
-        <div class="menu">
-            <a href="#home" class="active">Home</a>
-            <a href="#product">Product</a>
-            <a href="#signup">SignUp</a>
-            <a href="#login">Login</a>
-            <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
-            <a href="#cart"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
-        </div>
-    </nav>
+    <!-- Navbar section design starts here -->
+
+    <header>
+        <nav class="navbar">
+            <div class="bar-cart">
+                <a href="#bar"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="logo">
+                <h3>Influencer products</h3>
+            </div>
+            <div class="menu">
+                <a href="#home" class="active">Home</a>
+                <a href="#product">Product</a>
+                <a href="#signup">SignUp</a>
+                <a href="#login">Login</a>
+                <a href="#search"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#cart"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="bar-cart">
+                <a href="#cart"><i class="fa-sharp fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </nav>
+    </header>
+
+<!-- Navbar section design ends here -->
+
+<!-- Hero Section Design starts here-->
+
     <div class="hero-section">
         <div class="hero-description">
             <div class="hero-title">
@@ -30,8 +47,8 @@
             <div class="hero-paragraph">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem <br> vestibulum sed scelerisque eros. ectus faucibus.</p>
             </div>
-            <div class="btn-primart">
-                <button>Preebook now <i class="fa-light fa-arrow-right"></i></button>
+            <div class="btn-primary">
+                <button>Preebook now <i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
         <div class="hero-image-section">
@@ -41,5 +58,21 @@
             </div>
         </div>
     </div>
+
+<!-- Hero Section Design ends here-->
+
+<!-- Brands item display starts here-->
+
+    <section id="brands-container" class="brands-container">
+        <img src="assets/logos/Alibaba.svg" alt="">
+        <img src="assets/logos/Amazon.svg" alt="">
+        <img src="assets/logos/Daraz.pk Logo.svg" alt="">
+        <img src="assets/logos/Ebay.svg" alt="">
+        <img src="assets/logos/Rakuten.svg" alt="">
+        <img src="assets/logos/Target.svg" alt="">
+        <img src="assets/logos/Walmart.svg" alt="">
+    </section>
+
+<!-- Brands item display ends here-->    
 </body>
 </html>
